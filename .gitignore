@@ -1,0 +1,5 @@
+volumes/.DS_Store
+volumes/church-system/composer.lock
+volumes/church-system/package-lock.json
+./.docker
+volumes/mysql/data/*
