@@ -51,8 +51,8 @@ class User extends Authenticatable
         ];
     }
 
-    public function church()
+    public function churchs()
     {
-        return $this->belongsToMany(Church::class);
+        return $this->belongsToMany(Church::class)->withPivot('role');
     }
 }

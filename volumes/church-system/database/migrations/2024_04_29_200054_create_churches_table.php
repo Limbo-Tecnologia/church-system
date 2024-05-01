@@ -18,6 +18,7 @@ class CreateChurchesTable extends Migration
             $table->string('name');
             $table->string('email')->nullable();
             $table->string('document_number');
+            $table->string('phone');
             $table->string('address');
             $table->string('geolocation')->nullable();
             $table->date('foundation_date');
